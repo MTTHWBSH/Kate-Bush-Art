@@ -1,0 +1,19 @@
+# Site settings
+title: Kate Bush Art
+email: kate.e.bush3@gmail.com
+baseurl: ""
+url: "http://katebushart.com"
+
+# Build settings
+markdown: kramdown
+theme: minima
+sass:
+    style: :compressed
+    sass_dir: _sass
+plugins:
+  - jekyll-feed
+
+# Defaults
+paginate: 6
+per_page: 6
+is_home: false
